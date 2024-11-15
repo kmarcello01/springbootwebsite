@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <link rel="stylesheet" th:href="@{/bootstrap.css}">
+  <link rel="stylesheet" th:href="@{/styles.css}">
+  <script th:src="@{/jquery-3.7.1.js}"></script>
+  <script th:src="@{/popper.min.js}"></script>
+  <script th:src="@{/bootstrap.js}"></script>
+</head>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-brand:hover navbar-dark navbar-brand:focus">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <img width="40px" height="40px" class="rounded-circle" th:src="@{img/logo.png}" alt="">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Others</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+  </div>
+  <div class="main-wrapper ">
+      <div class="container">
+        <br>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block text-center">
+              <h4 class="text-white">Our Services</h4> <br>
+              <h1 class="text-capitalize mb-4 text-lg">What We Do</h1>
+              <h2 class="mt-3 content-title text-white ">We provide a wide range of creative services </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row justify-content-center"  style="background-color: darkslategrey; border-radius: 15px; padding: 20px;color: darkkhaki;">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Web Site Development.</h4>
+              <p>We are not here to replace your internal team, we're here to partner</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Interface Design.</h4>
+              <p>We are not here to replace your internal team, we're here to partner</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Web App Development.</h4>
+              <p>We are not here to replace your internal team, we're here to partner</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Branding.</h4>
+              <p>We are not here to replace your internal team, we're here to partner</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Business Consulting.</h4>
+              <p>We are not here to replace your internal team, we're here to partner</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Content creation.</h4>
+              <p>We are not here to replace your internal team, we're here to partner</p>
+          </div>
+        </div>
+        <br>
+      </div>
+      <!-- Footer -->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+        <div style="width: 100%;display: flex;align-items: center;justify-content: center;" class="footer-center text-white">
+         <h5> © Copyright Reserved to <span class="text-color"><b>Marcel Kwizera.</b></span> by <a href="#" target="_blank">MK</a></h5>
+        </div>
+    </nav> 
+  </div>
+</body>
+</html>

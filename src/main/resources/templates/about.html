@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" th:href="@{/bootstrap.css}">
+  <link rel="stylesheet" th:href="@{/styles.css}">
+  <script th:src="@{/jquery-3.7.1.js}"></script>
+  <script th:src="@{/popper.min.js}"></script>
+  <script th:src="@{/bootstrap.js}"></script>
+</head>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-brand:hover navbar-dark navbar-brand:focus">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <img width="40px" height="40px" class="rounded-circle" th:src="@{img/logo.png}" alt="">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Others</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+  </div>
+  <div class="main-wrapper">
+  <div class="container">
+    <h3 style="color: darkkhaki;"><b>About</b></h2>
+    <hr>
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6">
+        <img class="rounded-circle" th:src="@{img/slides/image1.jpg}" alt="">
+      </div>
+    </div> <br>
+    <div class="container">
+      <div class="container">
+        <div class="row justify-content-center"  style="background-color: darkslategrey; border-radius: 15px; padding: 20px;color: darkkhaki;">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Personal details.</h4>
+              <p> Marcel Kwizera, <br> 01/01/1988, <br> Gasabo, Kigali City, Rwanda.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Professional details.</h4>
+              <p>Sotware Developer, ASP .Net C# and later Java with Spring and Spring Boot.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Accomplishments.</h4>
+              <p>Personnel Appraisal Information System, Small Project Payroll Management System, Support on other developed system.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Challenges.</h4>
+              <p>Learning and Practice is the best way to overcome challenges in Software Development area.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Goals.</h4>
+              <p>Being a Specialist in Software Development and dynamic person.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <h4 class="mb-3">Contact information.</h4>
+              <p> +250788358887 <br> kmarcello01@gmail.com</p>
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+    <div style="width: 100%;display: flex;align-items: center;justify-content: center;" class="footer-center text-white">
+     <h5> © Copyright Reserved to <span class="text-color"><b>Marcel Kwizera.</b></span> by <a href="#" target="_blank">MK</a></h5>
+    </div>
+</nav> 
+  </div>
+</body>
+</html>

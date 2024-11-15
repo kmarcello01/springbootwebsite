@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" th:href="@{/bootstrap.css}">
+  <link rel="stylesheet" th:href="@{/styles.css}">
+  <script th:src="@{/jquery-3.7.1.js}"></script>
+  <script th:src="@{/popper.min.js}"></script>
+  <script th:src="@{/bootstrap.js}"></script>
+</head>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-brand:hover navbar-dark navbar-brand:focus">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <img width="40px" height="40px" class="rounded-circle" th:src="@{img/logo.png}" alt="">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Others</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+  </div>
+  <div class="container">
+    <h3 style="color: darkkhaki;"><b>Contact</b></h2>
+    <hr>
+    <div style="background-color: darkslategrey; border-radius: 15px; padding: 10px; padding-left: 30px; padding-right: 30px ;color: darkkhaki;">
+      <h3>Get in touch</h3>
+      <p class="text-justify">
+        If you have any query or idea regrading improvement of this site, please don’t hesitate to contact with us for any kind of information at kmarcello01@gmail.com
+      </p>
+      <div class="info-item d-flex">
+        <i class="bi bi-geo-alt flex-shrink-0"></i>
+        <div>
+          <h4>Location:</h4>
+          <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+      </div>
+      <div class="info-item d-flex">
+        <i class="bi bi-envelope flex-shrink-0"></i>
+        <div>
+          <h4>Email:</h4>
+          <p>info@example.com</p>
+        </div>
+      </div>
+      <div class="info-item d-flex">
+        <i class="bi bi-phone flex-shrink-0"></i>
+        <div>
+          <h4>Call:</h4>
+          <p>+250 788 358 887</p>
+        </div>
+      </div>
+      <div class="info-item d-flex">
+      <h4>Social Media:</h3>
+      <ul> 
+        <li>X: @_Marcel_Mk_</li>
+        <!-- <li>Instagram: @_Marcel_Mk_</li> -->
+        <li>Linked In: Marcel Kwizera</li>
+        <li>Whatsapp: +250788358887</li>
+      </ul>
+    </div>
+    </div> <br>
+    <!-- Form -->
+    <form action="" method="post" style="background-color: darkslategrey; border-radius: 15px; padding: 30px; padding-left: 30px; padding-right: 30px ;color: darkkhaki;">
+      <div class="row">
+        <div class="col-md-6 form-group">
+          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+        </div>
+        <div class="col-md-6 form-group mt-3 mt-md-0">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+      </div>
+      <div class="form-group mt-3">
+        <textarea class="form-control" name="message" placeholder="Message" required=""></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn-success" style="border-radius: 5px; width: 300px; height: 40px;">Send Message</button>
+      </div>
+    </form>
+    <!-- Footer -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+      <div style="width: 100%;display: flex;align-items: center;justify-content: center;" class="footer-center text-white">
+       <h5> © Copyright Reserved to <span class="text-color"><b>Marcel Kwizera.</b></span> by <a href="#" target="_blank">MK</a></h5>
+      </div>
+  </nav> 
+  </div>  
+</body>
+</html>
